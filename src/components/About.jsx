@@ -12,7 +12,7 @@ function About() {
       <h2><u>About Me</u></h2>
       <p>
         I'm a final-year Electronics and Communication student with hands-on experience in full-stack development (Spring Boot + React) . 
-        <p>Enthusiastic about data structures, backend architecture, and the evolving field of artificial intelligence.</p>
+        <p>Enthusiastic about algorithms , backend architecture, and the evolving field of artificial intelligence.</p>
       </p>
       
     </span>
