@@ -37,7 +37,7 @@ function Projects() {
     <section style={{ padding: '1rem' }}>
       <h2><u>Projects</u></h2>
       {projects.map((proj, idx) => (
-        <div key={idx} style={{ marginBottom: '1.5rem' }}>
+        <div key={idx} style={{ marginBottom: '1rem' }}>
           <h3>{proj.title}</h3>
           <p><strong>Tech:</strong> {proj.tech}</p>
           <p style={{ whiteSpace: 'pre-line' }}>{proj.description}</p>
