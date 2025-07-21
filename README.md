@@ -1,12 +1,38 @@
-# React + Vite
+#  Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive personal portfolio built using React.js and Vite, showcasing my projects, skills, and contact details.  
+Deployed live via Netlify.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React.js, JavaScript, CSS
+- **Build Tool**: Vite
+- **Deployment**: Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🧪 Local Setup
+
+To clone and run this project locally:
+
+```
+git clone https://github.com/sarv-projects/sarvesh-portfolio.git
+cd sarvesh-portfolio
+npm install
+npm run dev
+Then open http://localhost:5173 in your browser.
+
+ Deployment
+This portfolio is live and accessible at:
+
+👉 https://sarv-portfolio.netlify.app/
+
+Hosted on Netlify with Vite build and React.js frontend.
+To run locally:
+git clone https://github.com/sarv-projects/sarvesh-portfolio.git
+cd sarvesh-portfolio
+npm install
+npm run dev
