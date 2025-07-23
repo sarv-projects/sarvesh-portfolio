@@ -11,9 +11,8 @@ function About() {
         </p>
       <h2><u>About Me</u></h2>
       <p>
-        I'm a final-year Electronics and Communication student with hands-on experience in full-stack development (Spring Boot + React) . 
-        <p>Exploring backend development and system design through real-world projects using Spring Boot and React. 
-          </p>
+        I'm a Final-year Electronics and Communication Engineering student with hands on full-stack development experience, including
+REST APIs with  Spring Boot and dynamic UIs with React.js.
           <p>
             Deeply driven by an interest in algorithms and the foundations of AI, with a long-term goal of building intelligent and scalable systems.</p>
           
