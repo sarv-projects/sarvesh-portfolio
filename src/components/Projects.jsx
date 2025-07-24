@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "3. Joinly – Shared Forum System (In Progress)",
-    tech: " Java, Spring Boot, PostgreSQL, Docker, React.js",
+    tech: " Django , Spring Boot, PostgreSQL, Docker, React.js",
     description: `
 • Building a multi-tenant backend system with isolated forum instances per user.
 • Features include unique URLs and passwords for each forum instance, JWT-based email/password authentication, and fine-grained room-level authorization.
