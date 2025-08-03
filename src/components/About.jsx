@@ -12,7 +12,7 @@ function About() {
       <h2><u>About Me</u></h2>
       <p>
         I'm a Final-year Electronics and Communication Engineering student with hands on full-stack development experience, including
-REST APIs with Django ,Spring Boot and dynamic UIs with React.js.
+REST APIs with Django ,Spring Boot and dynamic UIs with React.
           <p>
             Deeply driven by an interest in algorithms and the foundations of AI, with a long-term goal of building intelligent and scalable systems.</p>
           
