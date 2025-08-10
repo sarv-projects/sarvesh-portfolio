@@ -14,8 +14,8 @@ const projects = [
     title: "2. Smart Expense Tracker",
     tech: "Django, React.js, PostgreSQL, Docker, OCR, Spring Boot",
     description: `
-• Led the development of a full-stack expense tracker with real-time receipt scanning (OCR) and financial reporting.
-• Developed a React frontend for receipt upload, editing, and an expense dashboard.
+• Developing a full-stack expense tracker with real-time receipt scanning (OCR) and financial reporting.
+• React frontend for receipt upload, editing, and an expense dashboard.
 • Used Django ORM with PostgreSQL for efficient data handling.
 • Enabled export functionality (CSV/PDF) for user-friendly financial reporting and analysis.
 `.trim()
