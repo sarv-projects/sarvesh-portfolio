@@ -2,17 +2,37 @@ import React from 'react';
 
 const projects = [
   {
-    title: "1. Blogging Platform ",
-    tech: " Django, PostgreSQL, Bootstrap, Jinja2 Templates",
+    title: "1. URL Shortener Backend",
+    tech: "Java, Spring Boot, PostgreSQL",
     description: `
-• Developed a production grade blog platform with user authentication, post CRUD operations and threaded comments.
-• Built dynamic frontend using Django Templates and Bootstrap for responsive UI
-• Secured user dashboard with role-based access to edit, publish, or draft posts.
-• Integrated form validation, messaging system, and responsive UI for seamless UX across devices
+• Developed a scalable URL shortening backend generating unique short URLs for long URLs.
+• Implemented a REST API for URL creation and redirection, handling 1000+ daily requests.
+• Utilized Spring Boot and PostgreSQL for efficient data storage and retrieval.
 `.trim()
   },
   {
-    title: "2. Personal Portfolio Website",
+    title: "2. Smart Expense Tracker",
+    tech: "Django, React.js, PostgreSQL, Docker, OCR, Spring Boot",
+    description: `
+• Led the development of a full-stack expense tracker with real-time receipt scanning (OCR) and financial reporting.
+• Developed a React frontend for receipt upload, editing, and an expense dashboard.
+• Used Django ORM with PostgreSQL for efficient data handling.
+• Enabled export functionality (CSV/PDF) for user-friendly financial reporting and analysis.
+`.trim()
+  },
+  {
+    title: "3. Blogging Platform",
+    tech: "Django, PostgreSQL, Bootstrap, Jinja2 Templates",
+    description: `
+• Developed a production-grade blog platform with user authentication, post CRUD operations, and threaded comments.
+• Built a dynamic frontend using Django Templates and Bootstrap for a responsive UI.
+• Secured a user dashboard with role-based access to edit, publish, or draft posts.
+• Used Django ORM and PostgreSQL to manage data relationships between users, posts, and comments.
+• Integrated form validation, a messaging system, and a responsive UI for a seamless UX across devices.
+`.trim()
+  },
+  {
+    title: "4. Personal Portfolio Website",
     tech: "React.js, JavaScript, Netlify",
     description: `
 • Designed and deployed a responsive personal portfolio using React.js and hosted it via Netlify.
@@ -20,16 +40,16 @@ const projects = [
 • Ensured cross-device and cross-browser compatibility.
 `.trim()
   },
-    {
-    title: "3. Daily Reset Notes API",
+  {
+    title: "5. Daily Reset Notes API",
     tech: "Java, Spring Boot",
     description: `
 • Developed a secure REST API supporting per-user note creation and retrieval, with basic authentication.
-• Implemented daily note cleanup using Spring Scheduler and used in-memory H2 DB for sessionless demo behavior.
+• Implemented daily note cleanup and used an in-memory H2 DB for sessionless demo behavior.
 • Designed clean, modular endpoints ready for frontend integration.
 • Validated API reliability through comprehensive Postman testing.
 `.trim()
-  }  
+  }
 ];
 
 function Projects() {
