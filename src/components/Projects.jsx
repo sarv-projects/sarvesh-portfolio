@@ -11,7 +11,7 @@ const projects = [
 `.trim()
   },
   {
-    title: "2. Smart Expense Tracker",
+    title: "2. Smart Expense Tracker (In Progress) ",
     tech: "Django, React.js, PostgreSQL, Docker, OCR, Spring Boot",
     description: `
 • Developing a full-stack expense tracker with real-time receipt scanning (OCR) and financial reporting.
@@ -54,7 +54,7 @@ const projects = [
 
 function Projects() {
   return (
-    <section style={{ padding: '1rem' }}>
+    <section style={{ padding: '0.5rem' }}>
       <h2><u>Projects</u></h2>
       {projects.map((proj, idx) => (
         <div key={idx} style={{ marginBottom: '1rem' }}>
