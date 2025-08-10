@@ -2,13 +2,13 @@ import React from 'react';
 
 const projects = [
   {
-    title: "1. Joinly – Shared Forum System (In Progress)",
-    tech: " Django , Spring Boot, PostgreSQL, Docker, React",
+    title: "1. Blogging Platform ",
+    tech: " Django, PostgreSQL, Bootstrap, Jinja2 Templates",
     description: `
-• Building a multi-tenant backend system with isolated forum instances per user.
-• Features include unique URLs and passwords for each forum instance, JWT-based email/password authentication, and fine-grained room-level authorization.
-• Backend uses Dockerized PostgreSQL for fast environment setup, consistent development/testing, and clean containerized architecture.
-•  Fully containerized with Docker to ensure reproducible development environments and easier deployment.
+• Developed a production grade blog platform with user authentication, post CRUD operations and threaded comments.
+• Built dynamic frontend using Django Templates and Bootstrap for responsive UI
+• Secured user dashboard with role-based access to edit, publish, or draft posts.
+• Integrated form validation, messaging system, and responsive UI for seamless UX across devices
 `.trim()
   },
   {
