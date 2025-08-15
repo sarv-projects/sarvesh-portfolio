@@ -11,8 +11,8 @@ storage, and implemented robust input validation.
 `.trim()
   },
   {
-    title: "2. Smart Expense Tracker (In Progress) ",
-    tech: "Django, React.js, PostgreSQL, Docker, OCR, Spring Boot",
+    title: "2. Notification Microservice ",
+    tech: " Java, Spring Boot, REST API, SMTP",
     description: `
 •Built a reusable microservice for sending notifications via email, extendable to SMS/push, serving 100+ daily
 requests.
