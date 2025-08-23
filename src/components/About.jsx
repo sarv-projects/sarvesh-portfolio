@@ -11,8 +11,7 @@ function About() {
         </p>
       <h2><u>About Me</u></h2>
       <p>
-        I'm a Final-year Electronics and Communication Engineering student with hands on full-stack development experience, including
-REST APIs with Django ,Spring Boot and dynamic UIs with React.
+        I'm a Final-year Electronics and Communication Engineering student at Ramaiah Institute of Technology (B.E. ’26 expected), with experience in backend development using Spring Boot and data analysis with Python.
           <p>
             Deeply driven by an interest in algorithms and the foundations of AI, with a long-term goal of building intelligent and scalable systems.</p>
           
@@ -23,3 +22,4 @@ REST APIs with Django ,Spring Boot and dynamic UIs with React.
 }
 
 export default About;
+
