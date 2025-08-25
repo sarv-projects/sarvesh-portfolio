@@ -23,14 +23,11 @@ handling.
 `.trim()
   },
   {
-    title: "3. Blogging Platform",
-    tech: "Django, PostgreSQL, Bootstrap, Jinja2 Templates",
+    title: "3. Automated CI/CD Pipeline for a Microservice",
+    tech: "GitHub Actions, Docker, Ansible, Kubernetes",
     description: `
-•Developed a production grade blog platform with user authentication, post CRUD operations, threaded
-comments.
-•Built role-based dashboards for editing, publishing, or drafting posts; managed data relationships via Django
-ORM.
-•Integrated responsive UI with Bootstrap for seamless cross-device experience.
+•Built a reduced-downtime CI/CD pipeline for a containerized Spring Boot application, reducing deployment time by 70%.
+•Implemented multi-stage Docker builds for optimized image size and configured Ansible playbooks for automated Kubernetes deployments.
 `.trim()
   },
   {
@@ -61,3 +58,4 @@ function Projects() {
 }
 
 export default Projects;
+
