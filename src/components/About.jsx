@@ -7,7 +7,7 @@ function About() {
       <p >
         Ramaiah Institute of Technology (2022-2026) 
         <p><i>B.E , Electronics and Communication</i></p>
-        <p>CGPA: 7.4 (as of 5th semester)  </p>
+        <p>CGPA: 7.5 (as of 6th semester)  </p>
         </p>
       <h2><u>About Me</u></h2>
       <p>
@@ -22,5 +22,6 @@ function About() {
 }
 
 export default About;
+
 
 
