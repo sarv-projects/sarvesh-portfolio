@@ -1,8 +1,19 @@
 import React from 'react';
 
 const projects = [
+  { title: "1.E-Commerce Application",
+    tech: "Java, Spring Boot, PostgreSQL,React",
+    description: `
+•Developed a full-stack e-commerce platform with User, Product, Cart, and Order modules, exposing secure REST APIs with JWT
+authentication and RBAC.
+•Developed a React frontend with product catalog, search, shopping cart, and checkout flow; styled using Material-UI and Tailwind
+CSS for a modern, user-friendly responsive UI.
+•Designed and managed a relational database (PostgreSQL) for product, user, and order management with transaction integrity.
+•Added payment simulation with Razorpay, reviews, and recommendations to enhance UX.
+`.trim()
+  },
   {
-    title: "1. URL Shortener Backend",
+    title: "2. URL Shortener Backend",
     tech: "Java, Spring Boot, PostgreSQL",
     description: `
 •Developed a scalable URL shortening backend generating unique 6-character short codes with fast redirection.
@@ -11,7 +22,7 @@ storage, and implemented robust input validation.
 `.trim()
   },
   {
-    title: "2. Notification Microservice ",
+    title: "3. Notification Microservice ",
     tech: " Java, Spring Boot, REST API, SMTP",
     description: `
 •Built a reusable microservice for sending notifications via email, extendable to SMS/push, serving 100+ daily
@@ -23,7 +34,7 @@ handling.
 `.trim()
   },
   {
-    title: "3. Automated CI/CD Pipeline for a Microservice",
+    title: "4. Automated CI/CD Pipeline for a Microservice",
     tech: "GitHub Actions, Docker, Ansible, Kubernetes",
     description: `
 •Built a reduced-downtime CI/CD pipeline for a containerized Spring Boot application, reducing deployment time by 70%.
@@ -58,4 +69,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
