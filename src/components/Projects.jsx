@@ -42,7 +42,7 @@ handling.
 `.trim()
   },
   {
-    title: "4. Personal Portfolio Website",
+    title: "5. Personal Portfolio Website",
     tech: "React.js, JavaScript, Netlify",
     description: `
 • Designed and deployed a responsive personal portfolio using React.js and hosted it via Netlify.
@@ -69,5 +69,6 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
