@@ -11,7 +11,7 @@ function About() {
         </p>
       <h2><u>About Me</u></h2>
       <p>
-        I'm a Final-year Electronics and Communication Engineering student at Ramaiah Institute of Technology (B.E. ’26 expected), with experience in backend and full-stack development using Spring Boot,Django,React,while implementing modern DevOps practices (CI/CD, Docker, Kubernetes).
+        I'm a Final-year Electronics and Communication Engineering student at Ramaiah Institute of Technology (B.E. ’26 expected), with experience in backend and full-stack development using Spring Boot,Django,React, alongside modern DevOps workflows (CI/CD, Docker, Kubernetes).
           <p>
             Deeply driven by an interest in algorithms and the foundations of AI, with a long-term goal of building intelligent and scalable systems.</p>
           
@@ -22,6 +22,7 @@ function About() {
 }
 
 export default About;
+
 
 
 
