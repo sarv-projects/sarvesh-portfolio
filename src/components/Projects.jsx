@@ -45,7 +45,7 @@ handling.
   },
   {
     title: "5.CI/CD Pipeline for Django App",
-    tech: "GitHub Actions, Docker, Ansible, Kubernetes",
+    tech: "GitHub Actions, Docker,Django",
     description: `
 •Automated build, test, and deployment workflow for a Django Task Manager app using GitHub Actions, cutting manual release effort
 by ~60%.
@@ -80,6 +80,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
