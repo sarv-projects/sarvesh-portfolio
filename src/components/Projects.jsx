@@ -12,8 +12,16 @@ CSS for a modern, user-friendly responsive UI.
 •Added payment simulation with Razorpay, reviews to enhance UX.
 `.trim()
   },
+  {title: "2.Multi-threaded File Transfer System ",
+    tech: "C++, TCP Sockets, pthreads, OpenSSL",
+    description: `
+•Developed a multi-threaded server handling multiple clients concurrently with thread-safe logging.
+•Implemented CLI-based upload/download with chunked file transfer enabling automatic resume of interrupted transfers.
+•Integrated AES-256 encryption for secure file transfers.
+`.trim()
+  },
   {
-    title: "2. Real-Time Chat Application",
+    title: "3. Real-Time Chat Application",
     tech: "Python, Flask, WebSocket, HTML/CSS/JS",
     description: `
 •Engineered a WebSocket-based chat system enabling instant (<200ms) message delivery for multiple rooms.
@@ -23,7 +31,7 @@ CSS for a modern, user-friendly responsive UI.
   }
   ,
   {
-    title: "3. URL Shortener Backend",
+    title: "4. URL Shortener Backend",
     tech: "Java, Spring Boot, PostgreSQL",
     description: `
 •Developed a scalable URL shortening backend generating unique 6-character short codes with fast redirection.
@@ -32,7 +40,7 @@ storage, and implemented robust input validation.
 `.trim()
   },
   {
-    title: "4. Notification Microservice ",
+    title: "5. Notification Microservice ",
     tech: " Java, Spring Boot, REST API, SMTP",
     description: `
 •Built a reusable microservice for sending notifications via email, extendable to SMS/push, serving 100+ daily
@@ -41,15 +49,6 @@ requests.
 framework (Spring Boot, Django, Node.js, etc.).
 • Implemented asynchronous delivery and monitoring hooks, ensuring scalable, production-ready notification
 handling.
-`.trim()
-  },
-  {
-    title: "5.CI/CD Pipeline for Django App",
-    tech: "GitHub Actions, Docker,Django",
-    description: `
-•Automated build, test, and deployment workflow for a Django Task Manager app using GitHub Actions, cutting manual release effort
-by ~60%.
-•Containerized the app with Docker, ensuring consistent builds across environments and reducing deployment errors.
 `.trim()
   },
   {
@@ -80,6 +79,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
