@@ -11,7 +11,7 @@ function About() {
         </p>
       <h2><u>About Me</u></h2>
       <p>
-        I'm a final year ECE student with strong CS fundamentals and practical experience in system-level and full-stack development. Proficient in algorithms, data structures, OS, networking, and building scalable applications with dynamic UIs using React,using modern software practices. 
+        I'm a final year ECE student with strong CS fundamentals and practical experience in system-level and full-stack development. Proficient in algorithms, data structures, OS, networking, and building scalable applications with dynamic UIs using React. 
           <p>
             Deeply driven by an interest in algorithms and the foundations of AI, with a long-term goal of building intelligent and scalable systems.</p>
           
@@ -22,6 +22,7 @@ function About() {
 }
 
 export default About;
+
 
 
 
