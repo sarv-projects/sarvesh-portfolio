@@ -8,7 +8,8 @@ const projects = [
 authentication and RBAC.
 •Developed a React frontend with product catalog, search, shopping cart, and checkout flow; styled using Material-UI and Tailwind
 CSS for a modern, user-friendly responsive UI.
-•Designed and managed a relational database (PostgreSQL) for product, user, and order management with transaction integrity; Added payment simulation with Razorpay.
+•Designed and managed a relational database (PostgreSQL) for product, user, and order management with transaction integrity.
+•Added payment simulation with Razorpay.
 `.trim()
   },
   {title: "2.Multi-threaded File Transfer System ",
@@ -78,6 +79,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
